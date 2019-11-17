@@ -1,0 +1,10 @@
+@import "~tailwindcss/base";
+
+@import "~tailwindcss/components";
+
+.nav-body-classes {
+   @apply bg-gray-200 leading-normal tracking-normal font-sans;
+}
+
+
+@import "~tailwindcss/utilities";
