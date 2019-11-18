@@ -1,5 +1,5 @@
 
-const {configIconFont, configSVGIcon, configBundleTracker, configUrlLoaderLimit,configSVGUrl} = require("./project.config.js");
+const {configIconFont, configSVGIcon, configBundleTracker, configUrlLoaderLimit, configSVGUrl} = require("./project.config.js");
 
 
 module.exports = {

@@ -10,8 +10,7 @@ module.exports = ({ addUtilities, theme }) => {
       }
       let fontGradientUtils = {
           '.font-gradient':{
-            fontSize:'72px',
-            background: theme('colors.gradient.menu'),
+            background: theme('colors.gradient.regal'),
             backgroundClip:'text',
             '-webkit-text-fill-color':'transparent'
 
@@ -26,7 +25,7 @@ module.exports = ({ addUtilities, theme }) => {
         '.object-scale': { objectFit: 'scale-down' },
       }
       addUtilities(sharpenUtilities,['responsive', 'hover'])
-      addUtilities(fontGradientUtils,['responsive', 'hover'])
-      addUtilities(imagesUtilities,['responsive', 'hover'])
+      // addUtilities(fontGradientUtils,['responsive', 'hover'])
+      // addUtilities(imagesUtilities,['responsive', 'hover'])
     }
 

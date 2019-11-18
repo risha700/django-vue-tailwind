@@ -31,15 +31,15 @@
   --color-stop-2: #77e190;
   --color-stop-3: #ffff1c;
 }
-.icon-hgradient {
-  fill: url(#gradient-horizontal) gray;
-  /* We could use it as a stroke fill too:
-  stroke: url(#gradient-horizontal) gray; */
-  &:hover{
-     fill: url(#gradient-vertical) blue;
-  }
-}
-.icon-vgradient {
-  fill: url(#gradient-vertical) gray;
-}
+// .icon-hgradient {
+//   fill: url(#gradient-horizontal) gray;
+//   /* We could use it as a stroke fill too:
+//   stroke: url(#gradient-horizontal) gray; */
+//   &:hover{
+//      fill: url(#gradient-vertical) blue;
+//   }
+// }
+// .icon-vgradient {
+//   fill: url(#gradient-vertical) gray;
+// }
 </style>
